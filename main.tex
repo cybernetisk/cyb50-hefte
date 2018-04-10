@@ -1,0 +1,42 @@
+\documentclass{article} %TODO skal kanskje være 'book'?
+\usepackage[utf8]{inputenc}
+\usepackage[norsk]{babel}
+\usepackage{parskip,textcomp,amssymb,multicol,color,hyperref}
+
+\usepackage{graphicx}
+\graphicspath{{images/}{../images/}}
+\usepackage{subfiles}
+\usepackage{blindtext}
+
+\title{Jubileumsheft CYB50}
+\author{}
+\date{Februar 2019}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{Forord}
+\subfile{sections/introduksjon}
+
+\section{Cybernetisk Selskabs fødsel}
+\subfile{sections/cybs-fodsel}
+
+\section{Høydepunkter i CYBs historie}
+\subfile{sections/hoydepunkter}
+
+\section{Cyb i 90-årene}
+\subfile{sections/90-arene}
+
+\section{Selskabets emblem}
+\subfile{sections/emblem}
+
+\section{Trekk fra Ifis historie} %TODO slutter brått i 1994 (skrevet for CYB25)
+\subfile{sections/ifis-historie}
+
+\section{Nyere CYB-historie} %TODO starter brått i 1995 (skrevet for CYB42)
+\subfile{sections/nyere-historie}
+
+%TODO appendix: sanger
+%TODO appendix: folk som har bidrat / eller hva med å liste opp alle styrene gjennom årene istedenfor?
+\end{document}

@@ -1,6 +1,6 @@
 ## Artikler
 
-1. Opprett fil med *kapittelnr-artikkelnavn*.tex (kapittelnr finner du i table of contents i book.pdf)
+1. Opprett fil med *kapittelnr-artikkelnavn*.tex (kapittelnummer finner du i table of contents i book/cyb50.pdf).
 2. Skriv artikkelen i ren tekst, uten *documentclass* og lignende LaTeX-markup. Se neste seksjon for tips til LaTeX markup av teksten.
 3. Evt. bilder legges i mappen img/, les readme for denne.
 

@@ -1,0 +1,3 @@
+[submodule "images"]
+	path = images
+	url = git@github.com:cybernetisk/cyb50-hefte-images

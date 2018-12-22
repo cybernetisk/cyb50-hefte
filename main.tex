@@ -1,7 +1,8 @@
-\documentclass{article} %TODO skal kanskje være 'book'?
+\documentclass[hidelinks, openany]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[norsk]{babel}
 \usepackage{parskip,textcomp,amssymb,multicol,color,hyperref}
+\usepackage{csquotes}
 
 \usepackage{graphicx}
 \graphicspath{{images/}{../images/}}
@@ -16,27 +17,70 @@
 \maketitle
 \tableofcontents
 
-\section{Forord}
-\subfile{sections/introduksjon}
+\subfile{parts/preface/introduksjon}
 
-\section{Cybernetisk Selskabs fødsel}
-\subfile{sections/cybs-fodsel}
+\part{Overordnet historie}
 
-\section{Høydepunkter i CYBs historie}
-\subfile{sections/hoydepunkter}
+\subfile{parts/history/introduksjon}
+\subfile{parts/history/cybs-fodsel}
+\subfile{parts/history/emblem}
+\subfile{parts/history/ifi-tidlig-historie}
+\subfile{parts/history/cyb-tidlig-historie}
+\subfile{parts/history/ifi1}
+\subfile{parts/history/cyb-med-k}
+\subfile{parts/history/cyb-for-escape}
+\subfile{parts/history/ifi2}
+\subfile{parts/history/escape}
+\subfile{parts/history/cyb42}
+\subfile{parts/history/cyb-i-nyere-tid}
+\subfile{parts/history/cyb-utenfor-uio}
 
-\section{Cyb i 90-årene}
-\subfile{sections/90-arene}
+\part{Arrangement og turer}
 
-\section{Selskabets emblem}
-\subfile{sections/emblem}
+\subfile{parts/events/introduksjon}
+\subfile{parts/events/tur-til-usa-1988}
+\subfile{parts/events/ifi-pop}
+\subfile{parts/events/whisky-seminar}
+\subfile{parts/events/faglig-helg}
+\subfile{parts/events/thats-it}
+\subfile{parts/events/ifi-skitur}
+\subfile{parts/events/ifi-galla}
+\subfile{parts/events/uio-200}
 
-\section{Trekk fra Ifis historie} %TODO slutter brått i 1994 (skrevet for CYB25)
-\subfile{sections/ifis-historie}
+\part{Foreningsliv og studiemiljø}
 
-\section{Nyere CYB-historie} %TODO starter brått i 1995 (skrevet for CYB42)
-\subfile{sections/nyere-historie}
+\subfile{parts/studentlife/introduksjon}
+\subfile{parts/studentlife/fui}
+\subfile{parts/studentlife/dagen}
+\subfile{parts/studentlife/navet}
+\subfile{parts/studentlife/ordenen}
+\subfile{parts/studentlife/foreningsfesten}
+\subfile{parts/studentlife/fadderordningen}
+\subfile{parts/studentlife/foreningene}
+\subfile{parts/studentlife/fordelingsutvalget}
 
-%TODO appendix: sanger
-%TODO appendix: folk som har bidrat / eller hva med å liste opp alle styrene gjennom årene istedenfor?
+\part{Personer som betyr ekstra for CYB}
+
+\subfile{parts/persons/introduksjon}
+\subfile{parts/persons/ole-johan-dahl}
+\subfile{parts/persons/kristen-nygaard}
+\subfile{parts/persons/rolf-bjerknes}
+\subfile{parts/persons/elisabeth-hurlen}
+\subfile{parts/persons/morten-daehlen}
+\subfile{parts/persons/chris-maile}
+\subfile{parts/persons/terje-knudsen}
+\subfile{parts/persons/narve-traedal}
+\subfile{parts/persons/henrik-steen}
+
+\part{Appendiks}
+
+\subfile{parts/appendix/introduksjon}
+\subfile{parts/appendix/cyb-styrer}
+\subfile{parts/appendix/aeresmedlemmer}
+\subfile{parts/appendix/domener}
+\subfile{parts/appendix/foreninger}
+\subfile{parts/appendix/kvinneandelen}
+\subfile{parts/appendix/bilderegister}
+\subfile{parts/appendix/kilder}
+
 \end{document}

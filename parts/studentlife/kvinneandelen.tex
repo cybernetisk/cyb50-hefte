@@ -69,8 +69,29 @@ På grunn av alle faktorene som spiller inn i slik statistikk, så er det alltid
 \end{table}
 
 \begin{figure}
-	Her kommer det graf...
-	% TODO: Vente på hjelp fra Veronika til graf
+	\begin{tikzpicture}
+
+	\node[rotate=90] at (-1,2) {prosentandel};
+	\node at (5,-1.5) {årstall};
+
+	\begin{axis}[
+	  ybar,
+	  bar width=.2cm,
+	  width=\textwidth,
+	  height=.5\textwidth,
+	  xtick = {1998, 1999, ..., 2018},
+	  x tick label style={
+	    font=\small,
+	    rotate=90,
+	    /pgf/number format/.cd,%
+	    scaled x ticks = false,
+	    set thousands separator={},
+	    fixed
+	 }]
+	  \addplot table [x=anno, y=andel, col sep=comma] {kvinner.data};
+	\end{axis}
+
+	\end{tikzpicture}
 	\caption{Graf som viser kvinneandelen over tid i opptaket til Ifi}
 	\label{figure:kvinneandel}
 \end{figure}

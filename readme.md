@@ -1,9 +1,5 @@
 # CYB50 Jubileumsbok
 
-Dette er repoet for jubileumsboken som utgis ifm Cybernetisk Selskab sitt 50-års jubileum.
+Dette er repoet for jubileumsboken som utgis ifm Cybernetisk Selskab sitt 50-års jubileum. Arbeidet med selve boken er avsluttet, og fysisk kopi kan kjøpes gjennom Cybernetisk Selskab. Digital kopi kan [lastes ned her](https://github.com/cybernetisk/cyb50-hefte/raw/master/main.pdf).
 
-## Tekster
-
-Tekstforfattere bes vennligst legge inn tekst i mappen parts/ etter instruksjonene beskrevet i parts/readme.
-
-Eller, hvis de ikke gidder; send det til Arne.
+Om du ønsker å bidra med nye tekster eller foreslå endringer, ta kontakt med [Arne Hassel](https://github.com/megoth).
